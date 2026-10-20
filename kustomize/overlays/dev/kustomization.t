@@ -6,6 +6,7 @@ namespace: {{NAMESPACE}}
 resources:
 - ../../base
 - configmap.yaml
+- ingress.yaml
 
 patches:
 - path: patch-deployment.yaml
